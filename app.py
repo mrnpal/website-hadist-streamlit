@@ -11,7 +11,7 @@ data_buku = {
 
 # Convert data ke dataframe
 df_buku = pd.DataFrame(data_buku)
-
+st.set_page_config(page_title="Hadist", page_icon="🌿")
 # Sidebar menu
 st.sidebar.title("Dashboard")
 # st.sidebar.image("sidebar_logo.png", use_column_width=True)
